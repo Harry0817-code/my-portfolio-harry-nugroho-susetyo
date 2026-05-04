@@ -1,4 +1,5 @@
 import React from 'react';
+import myPicture from '../assets/my-picture.jpg';
 
 const Hero = () => {
   return (
@@ -26,7 +27,7 @@ const Hero = () => {
         <div className="hero-image-wrapper" style={imageWrapperStyle}>
           {/* We use a glowing border effect for the image */}
           <div className="image-glow"></div>
-          <img src="/my-picture.jpg" alt="Harry Nugroho Susetyo" style={imageStyle} />
+          <img src={myPicture} alt="Harry Nugroho Susetyo" style={imageStyle} />
         </div>
       </div>
     </section>
