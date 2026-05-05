@@ -1,6 +1,6 @@
 import React from 'react';
 import { Mail } from 'lucide-react';
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaWhatsapp } from 'react-icons/fa';
 
 const Contact = () => {
   return (
@@ -25,6 +25,11 @@ const Contact = () => {
           <a href="https://github.com/Harry0817-code" target="_blank" rel="noopener noreferrer" className="btn btn-outline glass-btn">
             <FaGithub size={20} />
             GitHub
+          </a>
+
+          <a href="https://wa.me/6287792571660" target="_blank" rel="noopener noreferrer" className="btn btn-outline glass-btn">
+            <FaWhatsapp size={20} />
+            My Phone Number
           </a>
         </div>
       </div>
